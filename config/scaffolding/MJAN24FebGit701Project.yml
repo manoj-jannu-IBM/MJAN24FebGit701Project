@@ -25,17 +25,17 @@ packages:
   gitUrl: https://github.com/manoj-jannu-IBM
   gitUsername: manoj-jannu-IBM
   gitBranch: main
+- name: SIQACloudStreamsListner12
+  gitServerName: MJANGit
+  gitUrl: https://github.com/manoj-jannu-IBM
+  gitUsername: manoj-jannu-IBM
+  gitBranch: main
 - name: SIQACloudStreamsTests
   version: "1.0"
   gitServerName: MJANGit
   gitUrl: https://github.com/manoj-jannu-IBM
   gitUsername: manoj-jannu-IBM
   gitBranch: sag_webmethods
-- name: SIQACloudStreamsListner12
-  gitServerName: MJANGit
-  gitUrl: https://github.com/manoj-jannu-IBM
-  gitUsername: manoj-jannu-IBM
-  gitBranch: main
 services:
 - serviceName: project.mjan24febgit701.integrations:CloudStreamsTests_53
   packages:
