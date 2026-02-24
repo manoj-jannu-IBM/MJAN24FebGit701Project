@@ -26,10 +26,64 @@ packages:
   gitUsername: manoj-jannu-IBM
   gitBranch: main
 - name: SIQACloudStreamsTests
+  version: "1.0"
   gitServerName: MJANGit
   gitUrl: https://github.com/manoj-jannu-IBM
   gitUsername: manoj-jannu-IBM
   gitBranch: sag_webmethods
+services:
+- serviceName: project.mjan24febgit701.integrations:CloudStreamsTests_53
+  packages:
+  - name: MJAN24FebGit701Project
+    version: "1.0"
+  - name: SIQACloudStreamsTestSAGWM
+    version: "1.0"
+  - name: MJANNormal120Asset
+    version: "1.0"
+  - name: SIQACloudStreamsTestWM
+    version: "1.0"
+  - name: WmSalesforceProvider
+    version: 12.0.0.0.16
+  - name: SIQACloudStreamsTests
+    version: "1.0"
+- serviceName: SIQACloudStreamsTests.services53:connetorOperations
+  packages:
+  - name: SIQACloudStreamsTests
+    version: "1.0"
+  - name: WmSalesforceProvider
+    version: 12.0.0.0.16
+- serviceName: SIQACloudStreamsTests.services53:createAccountConnectorService53
+  packages:
+  - name: SIQACloudStreamsTests
+    version: "1.0"
+  - name: WmSalesforceProvider
+    version: 12.0.0.0.16
+- serviceName: SIQACloudStreamsTests.services53:retrieveAccountConnectorService53
+  packages:
+  - name: SIQACloudStreamsTests
+    version: "1.0"
+  - name: WmSalesforceProvider
+    version: 12.0.0.0.16
+- serviceName: SIQACloudStreamsTests.services53:deleteAccountConnectorService53
+  packages:
+  - name: SIQACloudStreamsTests
+    version: "1.0"
+  - name: WmSalesforceProvider
+    version: 12.0.0.0.16
+- serviceName: project.mjan24febgit701.integrations:Copy_CloudStreamsTests_531
+  packages:
+  - name: MJAN24FebGit701Project
+    version: "1.0"
+  - name: SIQACloudStreamsTestSAGWM
+    version: "1.0"
+  - name: MJANNormal120Asset
+    version: "1.0"
+  - name: SIQACloudStreamsTestWM
+    version: "1.0"
+  - name: WmSalesforceProvider
+    version: 12.0.0.0.16
+  - name: SIQACloudStreamsTests
+    version: "1.0"
 configurationVariables:
   jdbcfunc.SAPTxStore.failFastMode: false
   jdbcfunc.SAPTxStore.connPoolAlias: SAP TxStore Pool
